@@ -1,25 +1,35 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
+import Thumb from './components/Thumb'
 import './App.css';
+//import Slider from './components/Slider'
+//import Accordeon from './components/Accordeon'
+//import Star from './components/Star'
+//import Tag from './components/Tag'
+
+import {useEffect, useState} from "react";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    const [appartments, setAppartments] = useState([])
+
+    useEffect(() => {
+        fetch('/logements.json')
+            .then(res => res.json())
+            .then(data => {
+                setAppartments(data)
+            })
+    }, [])
+
+
+    return (
+        <div style={{display: 'flex', flexWrap: 'wrap'}}>
+            {appartments.map(appartment => <Thumb
+                key={appartment.id}
+                title={appartment.title}
+                image={appartment.cover}
+            />)}
+        </div>
+    );
 }
 
 export default App;
