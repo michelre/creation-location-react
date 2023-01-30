@@ -38,13 +38,11 @@ function App() {
                 <Route path="/star" element={<Star/>}  />
                 <Route path="/Tag" element={<Tag/>} />
                 <Route path="/thumb/:id" element={<Thumb/>} />
-                <Route path="/" element= {<Page-error />} errorElement={<ErrorPage/>} />,
+                
   
                 
             </Routes>
-            <Routes>
-                <Page-error/>
-            </Routes>
+           
         </div>
        /*<div className="app">
            
