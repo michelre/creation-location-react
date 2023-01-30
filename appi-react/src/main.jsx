@@ -1,6 +1,6 @@
 import React from "react";
-import ErrorPage from "./routes/main/error-page";
-import ReactDOM from "react-dom/client";
+//import Page-error from './D-error/Page-error'
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -12,12 +12,9 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
-    errorElement: <ErrorPage  />,
+    errorElement: <Page-error  />,
   },
-  {
-    path: "contacts/:contactId",
-    element: <Contact />,
-  }
+ 
 ]);
 
 
