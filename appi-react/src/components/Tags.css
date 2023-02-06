@@ -1,0 +1,15 @@
+.tags {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.tag {
+    padding: 4px 16px;
+    background: #FF6060;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-right: 6px;
+
+}

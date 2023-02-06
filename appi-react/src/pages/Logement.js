@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react'
 import {useParams} from "react-router-dom";
 import Accordeon from "../components/Accordeon";
+import Star from "../components/Star";
+import Tags from "../components/Tags";
 
 export default function Logement() {
 
@@ -14,27 +16,34 @@ export default function Logement() {
                 const logement = data.find(d => d.id === id)
                 setAppartment(logement)
             })
-    }, [])
+    }, [id])
 
-    if(!appartment){
+    if (!appartment) {
         return null;
     }
 
 
     return (
         <nav>
-        <i className="fa-solid fa-star"></i>
-        <i className="fa-solid fa-star" color=' rgb(59, 91, 152)' ></i>
-        <i className="fa-solid fa-star"></i>
-        <i className="fa-regular fa-star"></i>
-        <i className="fa-regular fa-star"></i>
-        <div className='logement'>
-        <div className='accordeons'>
-            <h1>{appartment.title}</h1>
-            <Accordeon />
-            <Accordeon />
-        </div>
-        </div>
+            <Star
+                rating={appartment.rating}
+            />
+            <div className='logement'>
+                <Tags
+                    tags={appartment.tags}
+                />
+                <div className='accordeons'>
+                    <h1>{appartment.title}</h1>
+                    <Accordeon
+                        title={'Description'}
+                        content={appartment.description}
+                    />
+                    <Accordeon
+                        title={'Equipements'}
+                        content={appartment.equipments}
+                    />
+                </div>
+            </div>
         </nav>
     )
 }

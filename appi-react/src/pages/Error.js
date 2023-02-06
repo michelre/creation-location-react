@@ -1,4 +1,3 @@
-import { useRouteError } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 export default function Error(){
@@ -21,5 +20,5 @@ export default function Error(){
         </div>
     )
 }
- 
+
 export default Error*/
