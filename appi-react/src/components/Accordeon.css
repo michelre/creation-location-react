@@ -1,0 +1,26 @@
+.accordeon{
+    border: 1 solid gray;
+}
+.accordeon-title{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: rgb(239, 142, 142);
+    padding: 10px;
+    font-weight: bold;
+
+}
+.accordeon-title:hover,
+.active .accordeon-title{
+    cursor: pointer;
+    background-color: rgb(254, 191, 191);
+}
+
+.accordeon-content{
+    visibility: hidden;
+    height: 10px;
+    opacity: 1;
+    overflow: hidden;
+    padding: 0 ;
+    transition: all .2s ease-in;
+}

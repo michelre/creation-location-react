@@ -1,52 +1,30 @@
 import {Routes ,Route} from "react-router-dom"
-import logo from './logo.svg'
-import Thumb from './components/Thumb'
 import './App.css'
-import Slider from './components/Slider'
-import Accordeon from './components/Accordeon'
-import Star from './components/Star'
-import Tag from './components/Tag'
-//import Page-error from './D-error/Page-error'
-import Navbar from './Navbar/navbar'
-import {useEffect, useState} from "react"
+import Home from './pages/Home'
+import Error from './pages/Error'
+import Logement from './pages/Logement'
+import APropos from './pages/APropos'
+import Navbar from './components/Navbar'
+
+//import Star from './components/Star'
 
 function App() {
 
-    const [appartments, setAppartments] = useState([])
-
-    useEffect(() => {
-        fetch('/logements.json')
-            .then(res => res.json())
-            .then(data => {
-                setAppartments(data)
-            })
-    }, [])
-
-
     return (
         
-        <div style={{display: 'flex', flexWrap: 'wrap'}}>
-            {appartments.map(appartment => <Thumb
-                key={appartment.id}
-                title={appartment.title}
-                image={appartment.cover}
-            />)}
+        <div>
+
             <Navbar/>
+            
             <Routes>
-                <Route path="/" element={<Accordeon/>} />
-                <Route path="/Slider" element={<Slider/>} />
-                <Route path="/star" element={<Star/>}  />
-                <Route path="/Tag" element={<Tag/>} />
-                <Route path="/thumb/:id" element={<Thumb/>} />
-                
-  
-                
+                <Route path="/" element={<Home/>} />
+                <Route path="/logements/:id" element={<Logement/>} />
+                <Route path="/APropos" element={<APropos/>} />
+                <Route path="/error" element={<Error/>} />
+               
             </Routes>
            
         </div>
-       /*<div className="app">
-           
-        </div>*/
     );
 }
 
