@@ -1,4 +1,3 @@
-import { useRouteError } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 export default function Error(){
@@ -14,12 +13,3 @@ export default function Error(){
   );
 }
 
-/*function Error() {
-    return (
-        <div>
-            <h1>Oups  Cette page n'existe pas</h1>
-        </div>
-    )
-}
- 
-export default Error*/
