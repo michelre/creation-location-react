@@ -1,7 +1,7 @@
 .tags {
     list-style: none;
     display: flex;
-    padding: 0;
+    padding: 60px;
 }
 
 .tag {
