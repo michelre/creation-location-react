@@ -1,0 +1,19 @@
+.Host{
+    display: flex;
+    background-color: beige;
+}
+
+
+
+.picture{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 1026px;
+    top: -4px;
+    border-radius: 50%;
+   background-color: brown;
+}
+.Name{
+  
+}

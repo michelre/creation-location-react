@@ -6,5 +6,5 @@ const Tags = ({tags}) => {
         {tags.map(t => <li className={'tag'}>{t}</li>)}
     </ul>
 }
-
+//key unique pour la liste ? avec index ou id
 export default Tags;
