@@ -4,16 +4,15 @@
     left: 15%;
     height: 128px;
     padding: 20px 20px;
-    Width: 1250px;
     border-radius: 20px;
-        
-       
+
+
    }
 
 
 .accueil{
-    position: absolute;
-    left: 80%;
+    /*position: absolute;
+    left: 80%;*/
     font-family: 'Montserrat';
     font-style: normal;
     font-size: 24px;
@@ -24,12 +23,12 @@
     text-decoration: none;
     color: #FF6060;
 
-    
-    
-    
+
+
+
 }
 .propo{
-     
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -45,12 +44,12 @@
 .accueil:hover{
     text-decoration-line:underline;
     color:#FF6060;
-    
-  
+
+
 }
 .propo:hover{
     text-decoration-line:underline;
     color:#FF6060;
-    
-  
+
+
 }

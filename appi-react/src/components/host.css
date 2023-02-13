@@ -1,19 +1,9 @@
-.Host{
+.host{
     display: flex;
-    background-color: beige;
+    justify-content: center;
+    align-items: center;
 }
 
-
-
-.picture{
-    position: absolute;
-    width: 64px;
-    height: 64px;
-    left: 1026px;
-    top: -4px;
+.host img{
     border-radius: 50%;
-   background-color: brown;
-}
-.Name{
-  
 }

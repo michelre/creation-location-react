@@ -1,18 +1,13 @@
 .block{
-    position: relative;
-    top: 10%;
-    left: 20%;
     padding: 20px;
-    width: 1250px;
-    height: 1200px;
-    
-    
-   
 }
+
 .logement{
     display: flex;
-    width: 1250px;
-    height: 342px;
     flex-direction: column;
 
+}
+
+.logement-info {
+    display: flex;
 }

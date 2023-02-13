@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="122557de-7288-4696-9371-8aeacf891db2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/appi-react/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/appi-react/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appi-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/appi-react/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appi-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/appi-react/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appi-react/src/components/Host.js" beforeDir="false" afterPath="$PROJECT_DIR$/appi-react/src/components/Host.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appi-react/src/components/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/appi-react/src/components/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appi-react/src/components/Slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/appi-react/src/components/Slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appi-react/src/components/Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/appi-react/src/components/Slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appi-react/src/components/Star.css" beforeDir="false" afterPath="$PROJECT_DIR$/appi-react/src/components/Star.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appi-react/src/components/host.css" beforeDir="false" afterPath="$PROJECT_DIR$/appi-react/src/components/host.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appi-react/src/components/logo.css" beforeDir="false" afterPath="$PROJECT_DIR$/appi-react/src/components/logo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appi-react/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/appi-react/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appi-react/src/pages/Logement.js" beforeDir="false" afterPath="$PROJECT_DIR$/appi-react/src/pages/Logement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appi-react/src/pages/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/appi-react/src/pages/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appi-react/src/pages/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/appi-react/src/pages/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appi-react/src/pages/logement.css" beforeDir="false" afterPath="$PROJECT_DIR$/appi-react/src/pages/logement.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KjlLW9OWfDpWWNV0E2Q2prAlWd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/appi-react/src/components" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/appi-react/src/pages" />
+      <recent name="$PROJECT_DIR$/appi-react/src/components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/appi-react/src/components" />
+      <recent name="$PROJECT_DIR$/appi-react/src/pages" />
+      <recent name="$PROJECT_DIR$/appi-react/public" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="122557de-7288-4696-9371-8aeacf891db2" name="Changes" comment="" />
+      <created>1674495846102</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674495846102</updated>
+      <workItem from="1674495850065" duration="2477000" />
+      <workItem from="1675100957617" duration="54000" />
+      <workItem from="1675101132560" duration="2949000" />
+      <workItem from="1675260431103" duration="598000" />
+      <workItem from="1675704565739" duration="25000" />
+      <workItem from="1675704911902" duration="343000" />
+      <workItem from="1675705294095" duration="3892000" />
+      <workItem from="1676310238683" duration="3314000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="128" y="82" key="MergeDialog" timestamp="1675705226199">
+      <screen x="0" y="25" width="1280" height="713" />
+    </state>
+    <state x="128" y="82" key="MergeDialog/0.25.1280.709@0.25.1280.709" timestamp="1675705150450" />
+    <state x="128" y="82" key="MergeDialog/0.25.1280.713@0.25.1280.713" timestamp="1675705226199" />
+    <state x="0" y="25" width="1280" height="709" key="MultipleFileMergeDialog" timestamp="1676310257602">
+      <screen x="0" y="25" width="1280" height="703" />
+    </state>
+    <state x="0" y="25" key="MultipleFileMergeDialog/0.25.1280.703@0.25.1280.703" timestamp="1676310257602" />
+    <state x="0" y="25" width="1280" height="709" key="MultipleFileMergeDialog/0.25.1280.709@0.25.1280.709" timestamp="1675705315077" />
+    <state x="0" y="25" key="MultipleFileMergeDialog/0.25.1280.713@0.25.1280.713" timestamp="1675705226316" />
+    <state x="341" y="131" width="597" height="490" key="find.popup" timestamp="1676311539574">
+      <screen x="0" y="25" width="1280" height="706" />
+    </state>
+    <state x="341" y="131" width="597" height="490" key="find.popup/0.25.1280.706@0.25.1280.706" timestamp="1676311539574" />
+  </component>
+</project>

@@ -1,17 +1,24 @@
-.slider{
-   position: absolute;
-   top: 0%;
-   left: 40%;
-   position: absolute;
-   top: -6%;
-   left: 18%;
-    
-    width: 877px;
+.slider-container {
+    width: 500px;
+    overflow: hidden;
 }
 
-.sliders{
+.slider-container ul {
+    padding: 0;
+    list-style: none;
     display: flex;
-    border-radius: 20px;
-    background-color: rgb(91, 90, 93);
+    transition: transform .5s linear;
+}
+
+.slider-container li {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.slider-container img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
 }
 

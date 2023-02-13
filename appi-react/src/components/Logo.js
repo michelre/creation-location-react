@@ -3,7 +3,7 @@ import'./logo.css'
 
 function logo() {
   return (
-    <div>logo</div>
+    <img src={"/logo-kasa.svg"} />
   )
 }
 

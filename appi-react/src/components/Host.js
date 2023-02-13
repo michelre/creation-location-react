@@ -1,18 +1,15 @@
 import React from 'react'
-import'./host.css'
+import './host.css'
 
-function Host() {
-  return (
-    <div className='Name'>
-        Host
-        <div className='picture'>
-            
-            
+function Host({host}) {
+    return (
+        <div className='host'>
+            <span>{host.name}</span>
+            <img src={host.picture}/>
+
         </div>
-        
-        </div>
-        
-  )
+
+    )
 }
 
 export default Host
