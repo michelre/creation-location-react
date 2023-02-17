@@ -30,8 +30,8 @@ export default function Slider({pictures}) {
         <img src={picture}/>
       </li>)}
     </ul>
-    <button onClick={nextSlide}><i className="fa-solid fa-chevron-up"></i></button>
-    <button onClick={previousSlide}><i className="fa-solid fa-chevron-up"></i></button>
+    <button onClick={nextSlide} className={'btn-next'}><i className="fa-solid fa-chevron-up"></i></button>
+    <button onClick={previousSlide} className={'btn-prev'}><i className="fa-solid fa-chevron-up"></i></button>
   </div>
 }
 

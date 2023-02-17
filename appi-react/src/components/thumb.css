@@ -1,6 +1,15 @@
 .thumb{
     display: flex;
-    
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+        border-radius: 10px;
+}
+
+.thumb h2 {
+    margin-top: auto;
+    margin-bottom: 0;
+    color: white;
 }
     
 
@@ -11,3 +20,16 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+/**
+display: 'flex',
+        alignItems: 'flex-end',
+        color: 'white',
+        border: '1px solid ',
+        margin: 20,
+        padding: 10,
+        width: 340,
+        height: 340,
+        backgroundSize: 'cover',
+        borderRadius: 10,
+ */

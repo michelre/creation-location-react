@@ -1,4 +1,11 @@
-
+.appartment {
+    width: 100%;
+    height: 340px;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    box-sizing: border-box;
+}
 
 .logement{
     padding: 24px;
@@ -11,4 +18,16 @@
 
 .logement-info {
     display: flex;
+}
+
+@media screen and (min-width: 768px){
+    .appartment {
+        width: 50%
+    }
+}
+
+@media screen and (min-width: 1140px){
+    .appartment {
+        width: 33%
+    }
 }

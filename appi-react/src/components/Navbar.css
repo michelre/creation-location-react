@@ -1,13 +1,22 @@
-.nav{
+
+.logo {
+    height: 44px;
+    width: 210px;
+}
+
+.nav {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.nav div {
+    display: flex;
+    align-items: center;
+}
 
 
-   }
-
-
-.accueil{
+.accueil {
     padding: 20px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -20,10 +29,9 @@
     color: #FF6060;
 
 
-
-
 }
-.propo{
+
+.propo {
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -37,15 +45,17 @@
     text-decoration: none;
 
 }
-.accueil:hover{
-    text-decoration-line:underline;
-    color:#FF6060;
+
+.accueil:hover {
+    text-decoration-line: underline;
+    color: #FF6060;
 
 
 }
-.propo:hover{
-    text-decoration-line:underline;
-    color:#FF6060;
+
+.propo:hover {
+    text-decoration-line: underline;
+    color: #FF6060;
 
 
 }

@@ -1,17 +1,16 @@
 import React from 'react'
-import'./footer.css'
+import './footer.css'
 
 function Footer() {
-  return (
-    <div className='content'>
-    
-    <div className='footer'>
-    <img className='logo-footer' src={"/logo-footer.svg"} />
-    <img className='droit-reserve' src={"/droit-reserve.svg"} />
-      Footer
-      </div>
-      </div>
-  )
+    return (
+        <div className='content'>
+
+            <div className='footer'>
+                <img className='logo-footer' src={"/logo-footer.svg"}/>
+                <img className='droit-reserve' src={"/droit-reserve.svg"}/>
+            </div>
+        </div>
+    )
 }
 
 export default Footer

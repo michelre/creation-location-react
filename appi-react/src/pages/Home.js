@@ -22,6 +22,7 @@ export default function Home() {
 
             {appartments.map(appartment => {
                 return <Link
+                    className={"appartment"}
                     key={appartment.id}
                     to={`/logements/${appartment.id}`}
                 >

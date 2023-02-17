@@ -1,10 +1,9 @@
 import React from 'react'
-import'./logo.css'
 
-function logo() {
+function Logo() {
   return  (
    <img className='logo' src={"/logo-kasa.svg"} />
   )
 }
 
-export default logo
+export default Logo

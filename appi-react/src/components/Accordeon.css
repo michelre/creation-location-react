@@ -3,8 +3,7 @@
     justify-content: space-around;
 }
 .accordeon{
-    height: 47px;
-    width: 1023px;
+    width: 100%;
     left: 0px;
     top: 0px;
     border-radius: 5px;
@@ -38,22 +37,8 @@
    
 }
 p{
-    width: 448px;
-    height: 143px;
     text-align: justify;
     padding: 20px;
-}
-h1{
-    position: absolute;
-    top: 20%;
-    left: 5%;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 142.6%;
-    color: #FF6060;
-
 }
 
 .fa-chevron-up{
