@@ -2,8 +2,8 @@ import React from 'react'
 import'./logo.css'
 
 function logo() {
-  return (
-    <img src={"/logo-kasa.svg"} />
+  return  (
+   <img className='logo' src={"/logo-kasa.svg"} />
   )
 }
 

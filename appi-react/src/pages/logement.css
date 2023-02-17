@@ -1,13 +1,9 @@
 .block{
-    padding: 20px;
-}
-
-.logement{
     display: flex;
     flex-direction: column;
-
 }
-
 .logement-info {
+    
     display: flex;
+    flex-direction: row-reverse;
 }

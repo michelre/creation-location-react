@@ -1,6 +1,10 @@
-.logo {
-    background-color: aliceblue;
-    display: flex;
-    width: 54px;
-    height: 62px;
+
+.logo{
+    position: absolute;
+    height: 44px;
+    width: 210px;
+    left: 100px;
+    top: 60px;
+    
+    
 }

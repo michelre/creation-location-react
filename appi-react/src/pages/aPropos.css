@@ -1,20 +1,6 @@
-.Apropo{
+.Apropo {
     padding: 20px;
     display: flex;
-    background-color: bisque;
     flex-direction: column;
     align-items: center;
-    /* Width: 1250px; */
-    /* height: 1200px; */
-    position: relative;
-    top: 10%;
-    
-}
-position: absolute;
-top: 0%;
-left: 40%;
-position: absolute;
-top: -6%;
-left: 18%;
- 
- width: 877px;
+    }

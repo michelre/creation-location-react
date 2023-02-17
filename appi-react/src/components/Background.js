@@ -3,7 +3,12 @@ import'./background.css'
 
 function Background() {
   return (
-    <div>Background</div>
+    <div>
+    <img className='background' src={"/kalen.jpg"} />
+    </div>
+    
+
+    
   )
 }
 

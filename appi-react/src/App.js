@@ -6,6 +6,7 @@ import Logement from './pages/Logement'
 import APropos from './pages/APropos'
 import Navbar from './components/Navbar'
 import Logo from "./components/Logo"
+import Footer from'./pages/Footer'
 
 function App() {
 
@@ -22,6 +23,8 @@ function App() {
                 <Route path="/error" element={<Error/>} />
 
             </Routes>
+            
+            <Footer/>
 
         </div>
     );
