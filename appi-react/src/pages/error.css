@@ -1,0 +1,28 @@
+.error-page{
+
+}
+.file{
+    font-family: Montserrat;
+    font-size: 288px;
+    font-weight: 700;
+    line-height: 411px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FF6060;
+    
+}
+
+.no-file{
+    height: 51px;
+    width: 872px;
+    left: 295px;
+    top: 606px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 142.6%;
+    display: flex;
+    align-items: flex-end;
+    color: #FF6060;
+}

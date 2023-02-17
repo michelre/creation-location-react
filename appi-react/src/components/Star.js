@@ -6,6 +6,6 @@ export default function Star({rating}) {
 
     return <div className='star'>
         {fullStars.map(e => <i className="fa-solid fa-star" key={`full-${e}`}></i>)}
-        {emptyStars.map(e => <i className="fa-regular fa-star" key={`empty-${e}`}></i>)}
+        {emptyStars.map(e => <i className="fa-regular fa-star x3" key={`empty-${e}`}></i>)}
     </div>
 }

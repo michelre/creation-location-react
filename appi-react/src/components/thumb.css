@@ -1,7 +1,13 @@
 .thumb{
-    text-decoration: none;
+    display: flex;
+    
 }
     
-.style h2{
-    text-decoration: none;
+
+.style{
+    padding: 50px;
+    border-radius: 25px;
+    background-color: #F7F7F7;
+    display: flex;
+    flex-wrap: wrap;
 }

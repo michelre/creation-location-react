@@ -1,15 +1,14 @@
-.style {
-    position:relative;
-    top: 20%;
-    left: 20%;
+
+
+.logement{
+    padding: 24px;
     display: flex;
-    flex-wrap: wrap;
-    Width: 1237px;
-    Height: 1004px;
-    padding:  30px;
-    border-radius: 25px;
-    background: #F7F7F7;
-    
+    justify-content: space-evenly;
+    flex-direction: column;
    
-    
+
+}
+
+.logement-info {
+    display: flex;
 }

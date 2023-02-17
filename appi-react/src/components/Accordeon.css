@@ -3,9 +3,12 @@
     justify-content: space-around;
 }
 .accordeon{
+    height: 47px;
+    width: 1023px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
     
-    Width: 500px;
-    Height: 152px;
 }
 .accordeon-title{
     display: flex;
@@ -26,6 +29,7 @@
 
 .accordeon-content{
     
+
     display: none;
     overflow: hidden;
     padding: 0 ;
@@ -41,8 +45,8 @@ p{
 }
 h1{
     position: absolute;
-    top: -1%;
-    left: 6%;
+    top: 20%;
+    left: 5%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;

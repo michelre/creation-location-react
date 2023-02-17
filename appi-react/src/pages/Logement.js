@@ -6,7 +6,8 @@ import Tags from "../components/Tags";
 import Slider from "../components/Slider";
 import './logement.css';
 import Host from '../components/Host';
-//import Footer from "./pages/Footer"
+
+//import Footer from "./pages/Footer";
 
 
 
@@ -30,11 +31,19 @@ export default function Logement() {
 
 
     return (
-        
+
         <nav className='block'>
-            <Star
-                rating={appartment.rating}
-            />
+
+            <div className={"logement-info"}>
+                <Star
+                    rating={appartment.rating}
+                />
+                <div className='host'>
+                    <Host
+                        host={appartment.host}
+                    />
+                </div>
+            </div>
             <div className='logement'>
                 <Tags
                     tags={appartment.tags}
@@ -54,11 +63,8 @@ export default function Logement() {
                         pictures={appartment.pictures}
                         />
                     </div>
-                    <div className='host'>
-                        <Host
-                        picture={appartment.picture}
-                        />
-                    </div>
+                    
+
                 </div>
             </div>
         </nav>
