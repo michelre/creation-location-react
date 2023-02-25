@@ -1,13 +1,25 @@
 .thumb{
     display: flex;
-    
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.thumb h2 {
+    margin-top: auto;
+    margin-bottom: 0;
+    color: white;
 }
     
 
-.style{
-    padding: 50px;
-    border-radius: 25px;
-    background-color: #F7F7F7;
+.style {
+    width: 64%;
+    padding: 38px;
+    border-radius: 19px;
+    background: #F7F7F7;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
+

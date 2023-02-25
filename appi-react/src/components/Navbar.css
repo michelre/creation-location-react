@@ -1,51 +1,58 @@
-.nav{
+
+.logo {
+    height: 80px;
+    
+}
+
+.nav {
+    
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-around;
+}
+
+.nav div {
+    display: flex;
+    align-items: center;
+}
 
 
-   }
-
-
-.accueil{
+.accueil {
     padding: 20px;
     font-family: 'Montserrat';
     font-style: normal;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 142.6%;
-    display: flex;
-    align-items: flex-end;
-    text-align: right;
+    
     text-decoration: none;
     color: #FF6060;
 
 
-
-
 }
-.propo{
+
+.propo {
 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 142.6%;
-    display: flex;
-    justify-content: flex-end;
-    text-align: right;
     color: #FF6060;
     text-decoration: none;
+    padding: 20px;
 
 }
-.accueil:hover{
-    text-decoration-line:underline;
-    color:#FF6060;
+
+.accueil:hover {
+    text-decoration-line: underline;
+    color: #FF6060;
 
 
 }
-.propo:hover{
-    text-decoration-line:underline;
-    color:#FF6060;
+
+.propo:hover {
+    text-decoration-line: underline;
+    color: #FF6060;
 
 
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import {useState} from 'react'
-import './Accordeon.css'
+import './accordeon.css'
 
 function Accordeon({title, content}) {
     const [active, setActive] = useState(true)

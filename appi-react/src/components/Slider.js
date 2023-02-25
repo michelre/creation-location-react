@@ -25,16 +25,15 @@ export default function Slider({pictures}) {
 
 
   return <div className="slider-container">
-    <ul style={{transform: `translateX(-${currentSlide * 1240}px)`}}>
+    <ul style={{transform: `translateX(-${currentSlide * 100}%)`}}>
       {pictures.map((picture, idx) => <li key={idx}>
         <img src={picture}/>
       </li>)}
     </ul>
-    <button onClick={nextSlide}><i className="fa-solid fa-chevron-up"></i></button>
-    <button onClick={previousSlide}><i className="fa-solid fa-chevron-up"></i></button>
+    <button onClick={nextSlide} className={'btn-next'}><i className="fa-solid fa-chevron-up"></i></button>
+    <button onClick={previousSlide} className={'btn-prev'}><i className="fa-solid fa-chevron-up"></i></button>
   </div>
 }
-
 
 
 

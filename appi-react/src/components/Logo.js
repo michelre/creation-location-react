@@ -1,10 +1,12 @@
 import React from 'react'
-import'./logo.css'
+import { Link } from 'react-router-dom'
 
-function logo() {
+function Logo() {
   return  (
-   <img className='logo' src={"/logo-kasa.svg"} />
+    <Link to="/" className='logo'>
+   <img src={"/logo-kasa.svg"} />
+   </Link>
   )
 }
 
-export default logo
+export default Logo
