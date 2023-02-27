@@ -1,9 +1,11 @@
 .accordeons{
     display: flex;
-    justify-content: space-around;
-}
+    justify-content: space-between;
+    
+}   
 .accordeon{
-    width: 100%;
+    margin: 10px;
+    width: 45%;
     left: 0px;
     top: 0px;
     border-radius: 5px;
@@ -18,7 +20,7 @@
     border-radius: 10px;
     justify-content: center;
     color: white;
-
+    justify-content: space-between;
 }
 .accordeon-title:hover,
 .active .accordeon-title{
@@ -56,3 +58,18 @@ p{
 li{
     list-style: none;
 }
+
+
+@media screen and (min-width: 724px) and (max-width: 1024px){
+    .accordeons {
+        margin: 10px;
+        display: flex;
+        justify-content:space-between;
+        flex-direction:column;
+    }
+    .accordeon{
+        width: 100%;
+    }
+}
+
+

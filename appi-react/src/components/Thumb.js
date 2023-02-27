@@ -1,7 +1,7 @@
 import React from 'react';
-//import '../styles/Thumb.css';
+
 import'./thumb.css' 
-const Thumb = (props) => {//faire une classname
+const Thumb = (props) => {
     return <article
         className="thumb"
         style={{

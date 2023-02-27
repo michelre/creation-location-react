@@ -3,7 +3,7 @@
     height: 100%;
     padding: 20px;
     box-sizing: border-box;
-        border-radius: 10px;
+    border-radius: 10px;
 }
 
 .thumb h2 {
@@ -13,23 +13,13 @@
 }
     
 
-.style{
-    padding: 50px;
-    border-radius: 25px;
-    background-color: #F7F7F7;
+.style {
+    width: 64%;
+    padding: 38px;
+    border-radius: 19px;
+    background: #F7F7F7;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-/**
-display: 'flex',
-        alignItems: 'flex-end',
-        color: 'white',
-        border: '1px solid ',
-        margin: 20,
-        padding: 10,
-        width: 340,
-        height: 340,
-        backgroundSize: 'cover',
-        borderRadius: 10,
- */

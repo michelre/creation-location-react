@@ -1,8 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Logo() {
   return  (
-   <img className='logo' src={"/logo-kasa.svg"} />
+    <Link to="/" className='logo'>
+   <img src={"/logo-kasa.svg"} />
+   </Link>
   )
 }
 

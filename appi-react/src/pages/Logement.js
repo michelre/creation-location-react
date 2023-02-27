@@ -7,7 +7,6 @@ import Slider from "../components/Slider";
 import './logement.css';
 import Host from '../components/Host';
 
-//import Footer from "./pages/Footer";
 
 
 export default function Logement() {

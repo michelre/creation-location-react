@@ -1,13 +1,14 @@
 
 .logo {
-    height: 44px;
-    width: 210px;
+    height: 80px;
+    
 }
 
 .nav {
+    
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .nav div {
@@ -20,11 +21,9 @@
     padding: 20px;
     font-family: 'Montserrat';
     font-style: normal;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 142.6%;
-    display: flex;
-    align-items: flex-end;
-    text-align: right;
+    
     text-decoration: none;
     color: #FF6060;
 
@@ -36,13 +35,11 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 142.6%;
-    display: flex;
-    justify-content: flex-end;
-    text-align: right;
     color: #FF6060;
     text-decoration: none;
+    padding: 20px;
 
 }
 
