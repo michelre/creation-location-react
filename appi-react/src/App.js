@@ -1,13 +1,11 @@
-import {Routes ,Route} from "react-router-dom"
+import {Route, Routes} from "react-router-dom"
 import './App.css'
 import Home from './pages/Home'
 import Error from './pages/Error'
 import Logement from './pages/Logement'
 import APropos from './pages/APropos'
 import Navbar from './components/Navbar'
-import Logo from './components/Logo'
-import Footer from'./pages/Footer'
-import image from './components/Image';
+import Footer from './pages/Footer'
 
 function App() {
 
@@ -21,7 +19,7 @@ function App() {
                 <Route path="/" element={<Home/>} />
                 <Route path="/logements/:id" element={<Logement/>} />
                 <Route path="/APropos" element={<APropos/>} />
-                <Route path="/error" element={<Error/>} />
+                <Route path="*" element={<Error/>} />
 
             </Routes>
             

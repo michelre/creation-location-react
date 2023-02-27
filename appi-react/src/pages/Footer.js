@@ -6,8 +6,8 @@ function Footer() {
         <div className='content'>
 
             <div className='footer'>
-                <img className='logo-footer' src={"/logo-footer.svg"}/>
-                <img className='droit-reserve' src={"/droit-reserve.svg"}/>
+                <img className='logo-footer' src={"/logo-footer.svg"} alt={'Footer Logo'}/>
+                <img className='droit-reserve' src={"/droit-reserve.svg"} alt={''}/>
             </div>
         </div>
     )

@@ -4,7 +4,7 @@ import'./background.css'
 function Background() {
   return (
     <div>
-    <img className='background' src={"/kalen.jpg"} />
+    <img className='background' src={"/kalen.jpg"}  alt={'Background'}/>
     </div>
     
 

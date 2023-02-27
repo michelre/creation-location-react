@@ -43,12 +43,12 @@ p{
     padding: 20px;
 }
 
-.fa-chevron-up{
+.arrow{
     transform: rotate(180deg);
     transition: all .2s ease;
 }
 
-.accordeon.active .fa-chevron-up {
+.accordeon.active .arrow {
     transform: rotate(0);
 }
 
@@ -71,5 +71,4 @@ li{
         width: 100%;
     }
 }
-
 
