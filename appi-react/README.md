@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+- Mettre une route sur le localhost:3000 OK
+- Supprimer toutes les dépendances externes OK
+- Supprimer les flêches si une seule image OK
+- Ajouter les points sur le carousel OK
+- Responsive à revoir OK + header revu sur la homepage
+- Enlever fontawesome des étoiles + accordéon + flêches slider OK

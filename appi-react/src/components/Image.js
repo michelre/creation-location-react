@@ -4,8 +4,8 @@ import'./image.css'
 function Image() {
   return (
     
-    <div><p className='titre'> CHEZ VOUS , PARTOUT ET AILLEURS</p>
-    <img className='image'src={"/img.jpg"} />
+    <div className={'image-container'}><p className='titre'> Chez vous, partout et ailleurs</p>
+    <img className='image' src={"/img.jpg"} alt=""/>
     
     
     </div>

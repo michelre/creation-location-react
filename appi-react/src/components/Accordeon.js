@@ -1,6 +1,7 @@
 import React from 'react'
 import {useState} from 'react'
-import './accordeon.css'
+import './Accordeon.css'
+import arrowTop from './arrow-top.svg'
 
 function Accordeon({title, content}) {
     const [active, setActive] = useState(true)
@@ -13,12 +14,12 @@ function Accordeon({title, content}) {
         <nav className={`accordeon ${active ? 'active': ''}`}>
             <div className="accordeon-title" onClick={handleToggle}>
                 {title}
-                <i className="fa-solid fa-chevron-up"></i>
+                <img src={arrowTop} alt={''} className={'arrow'}/>
             </div>
 
             <div className="accordeon-content">
                 {content instanceof Array ? <ul>
-                    {content.map(e => <li>{e}</li>)}
+                    {content.map(e => <li key={e}>{e}</li>)}
                 </ul> : <p>{content}</p>}
             </div>
 
