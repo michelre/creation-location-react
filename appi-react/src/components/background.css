@@ -1,7 +1,11 @@
 .background{
     width: 100%;
     height: 223px;
-    padding: 10px;
     border-radius: 25px;
-    
+    margin-bottom: 24px;
+    object-fit: cover;
+}
+
+.Apropo .accordeon {
+    margin-bottom: 20px;
 }
