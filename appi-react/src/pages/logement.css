@@ -1,17 +1,30 @@
-.block{
+.block {
     display: flex;
     flex-direction: column;
 }
-.logement-info {
+
+.logement-infos {
     padding: 30px 0;
+}
+
+.logement-infos > div {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
+.logement-title {
+    width: 50%;
+}
 
-@media screen and (min-width: 320px) and (max-width: 425px){
-    .logement-info{
-     padding: 10px 10px;
+.logement-infos .star {
+    order: -1;
+}
+
+@media screen and (min-width: 768px) {
+    .logement-infos .star {
+        order: 1;
     }
 }

@@ -48,14 +48,19 @@ export default function Logement() {
                 />
             </div>
 
-            <div className={"logement-info"}>
+            <div className={"logement-infos"}>
                 <div>
-                    <h1>{appartment.title}</h1>
-                    <h3>{appartment.location}</h3>
-                </div>
-                <div>
+                    <div className={'logement-title'}>
+                        <h1>{appartment.title}</h1>
+                        <h3>{appartment.location}</h3>
+                    </div>
                     <Host
                         host={appartment.host}
+                    />
+                </div>
+                <div>
+                    <Tags
+                        tags={appartment.tags}
                     />
                     <Star
                         rating={appartment.rating}
@@ -63,9 +68,6 @@ export default function Logement() {
                 </div>
             </div>
             <div>
-                <Tags
-                    tags={appartment.tags}
-                />
                 <div className='accordeons'>
 
                     <Accordeon
