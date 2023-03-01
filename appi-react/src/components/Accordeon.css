@@ -72,3 +72,8 @@ li{
     }
 }
 
+@media screen and (min-width: 360px) and (max-width: 425px){
+    .accordeon {
+     width: 75%;
+    }
+}

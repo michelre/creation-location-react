@@ -13,3 +13,10 @@
     margin-right: 6px;
 
 }
+
+
+@media screen and (min-width: 360px) and (max-width: 425px){
+    .tags {
+     padding: 10px;
+    }
+}

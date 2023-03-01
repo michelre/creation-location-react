@@ -33,9 +33,7 @@ export default function Slider({pictures}) {
     </ul>
     {
       (pictures.length > 1) ? <>
-      {/*<ul className={'dots'}>{pictures.map((p, idx) => <li key={`dot-${idx}`}>
-          <button onClick={() => setCurrentSlide(idx)}></button>
-        </li>)}</ul>*/}
+      
         <div className={'slide-index'}><span>{currentSlide + 1}</span>/<span>{pictures.length}</span></div>
         <button onClick={nextSlide} className={'btn-next'}><img src={arrowRight} alt={''} /></button>
         <button onClick={previousSlide} className={'btn-prev'}><img src={arrowLeft} alt={''}/></button>
