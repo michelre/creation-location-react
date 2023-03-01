@@ -36,16 +36,11 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    /* font-weight: 700; */
     padding: 20px;
-
     color: rgb(252, 17, 17);
-    /* display: flex; */
-    /* padding: 10px; */
     text-decoration: none;
     border: 0;
     background-color: transparent;
-    /* width: 25px; */
     color: white;
 }
 
@@ -61,26 +56,7 @@
     font-size: 80px;
 }
 
-/*.dots {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    padding: 0;
-}
 
-.dots li:not(:last-child) {
-    margin-right: 8px;
-}
-
-.dots button {
-    width: 15px;
-    height: 15px;
-    border-radius: 100%;
-    border: none;
-    background: white;
-}*/
 
 .slide-index {
     position: absolute;

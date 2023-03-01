@@ -31,4 +31,3 @@ function Accordeon({title, content}) {
 export default Accordeon
 
 
-

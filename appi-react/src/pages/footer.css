@@ -19,3 +19,22 @@
 .droit-reserve{
     display: flex;
 }
+
+
+@media screen and (min-width: 320px)  and (max-width: 425px){
+    .footer {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+       
+}
+.droit-reserve{
+    width: 85%;
+}
+.content {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+}

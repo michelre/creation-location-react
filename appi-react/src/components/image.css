@@ -43,15 +43,36 @@
     align-items: center;
     flex-direction: column;
 }
+
+@media screen and (min-width: 320px) and (max-width: 425px){
+    .titre{
+    width: 80%;
+    }
+}
 @media screen and (min-width: 1140px){
-    .background{
+    .image{
         width:80%
     }
    
 }
 @media screen and (min-width: 724px){
-    .background{
+    .image{
         width:80%
+    }
+    .image-container {
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
+    .image-container::after {
+        content: '';
+        border-radius: 25px;
+        position: absolute;
+        left: 10%;
+        width: 80%;
+        top: 0;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.3);
     }
     
 }
